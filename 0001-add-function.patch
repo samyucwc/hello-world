@@ -1,0 +1,44 @@
+From 887c1efa4080d9dfd6abad77be206ffcaa59bc43 Mon Sep 17 00:00:00 2001
+From: samyucwc <samyucwc@users.noreply.github.com>
+Date: Fri, 1 Sep 2017 10:10:43 +0800
+Subject: [PATCH] add function
+
+---
+ index.html | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+
+diff --git a/index.html b/index.html
+index 4253f0e..1afeb39 100644
+--- a/index.html
++++ b/index.html
+@@ -2,6 +2,27 @@
+ <head>
+ 	<script type="text/javascript" src="js/test.js"></script>
+ 
++<script>
++	funA() {
++		var a = "1";
++	}
++	
++	funB() {
++		var a = "1";
++	}
++	
++	funC() {
++		var a = "1";
++	}
++
++	funMain(){
++		funA();
++		funB();
++		funC();
++
++	}
++</script>
++	
+ </head>
+ <body>
+ Test
+-- 
+2.14.1.windows.1
+
